@@ -1,5 +1,7 @@
 import './App.css';
-import Event from './components/2-7 Event/Event';
+
+import Condition from './components/2-8 ConditionalRendering/Condition';
+// import Event from './components/2-7 Event/Event';
 // import ClassComponent2 from './components/2-6 LifeCycle/ClassComponent';
 // import Composition from './components/2-4 Props/Composition'
 // import Extraction from './components/2-4 Props/Extraction/Extraction';
@@ -9,7 +11,10 @@ import Event from './components/2-7 Event/Event';
 function App() {
   return (
     <div className="App">
-      <Event />
+
+
+      <Condition />
+      {/* <Event /> */}
       {/* <ClassComponent2 />
       <FunctionalComponent />
       <ClassComponent />
